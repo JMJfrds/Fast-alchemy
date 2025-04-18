@@ -1,8 +1,6 @@
 from pydantic_settings import BaseSettings
 from functools import lru_cache
 
-from pypika_tortoise import Database
-
 
 class ConfigSettings(BaseSettings):
 
